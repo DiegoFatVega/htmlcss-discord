@@ -47,7 +47,7 @@ header{
 
 .jumbo{
     flex-direction: column;
-    min-height: 450px;
+    min-height: 600px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -63,13 +63,18 @@ header{
     width: 60%;
     align-items: center;
 }
+
 .w-70{
-    width: 70%;
-    
+    width: 70%;    
 }
+
 .w-30{
-      width: 30%;  
-    }
+    width: 30%;  
+}
 
-
+.dimension-containers-text{
+    font-size: 50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
 
