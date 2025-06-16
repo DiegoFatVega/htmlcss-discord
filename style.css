@@ -64,6 +64,9 @@ header{
     align-items: center;
 }
 
+.reverse{
+    flex-direction: row-reverse;
+}
 .w-70{
     width: 70%;    
 }
@@ -73,8 +76,40 @@ header{
 }
 
 .dimension-containers-text{
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 30px;
     font-weight: bold;
 }
 
+.just-chilling{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars{
+    background-image: url(./img/stars.svg);
+    min-height: 50px;
+    background-position: top;   
+    background-repeat: no-repeat; 
+    font-size: 25px;
+    font-weight: bold;  
+}
+
+#donwload-4-mac{
+    background-color: #8ea1e1;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 16px; 
+    border-radius: 20px;
+    color: white;
+}
+
+#ds_browser_btn{
+    background-color: #23272a;
+    border-radius: 2px;
+    border: none;
+    padding: 10px 16px; 
+    border-radius: 20px;
+    color: white;
+}
