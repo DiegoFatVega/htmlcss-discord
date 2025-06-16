@@ -18,7 +18,7 @@
 }
 /* #endregion Flexbox */
 
-/*#region Header*/
+/* #region Header*/
 header{
     background-color:#3161e0;
 }
@@ -45,6 +45,7 @@ header{
 
 /*#endregion Header*/
 
+/* #region Main */
 .jumbo{
     flex-direction: column;
     min-height: 600px;
@@ -113,3 +114,38 @@ header{
     border-radius: 20px;
     color: white;
 }
+
+/* #endregion Main */
+
+/*  #region Footer*/
+footer{
+    margin-top: 5rem;
+    background-color: #23272a;
+    min-height: 500px;
+}
+
+ul{
+    list-style-type: none;
+    border: 5;
+    :nth-child(1){
+        color:#8ea1e1;
+    }
+}
+.flex-footer{
+    padding-top: 3rem;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.column{
+    padding: 5rem;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.space-between{
+    padding: 3rem;
+    justify-content: space-between;
+}
+/*  #endregion Footer*/
