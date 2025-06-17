@@ -35,7 +35,7 @@ header{
     gap: 40px;
 }
 
-#login{
+.login{
     background-color: white;
     border-radius: 2px;
     border: none;
@@ -97,7 +97,7 @@ header{
     font-weight: bold;  
 }
 
-#donwload-4-mac{
+.donwload-4-mac{
     background-color: #8ea1e1;
     border-radius: 2px;
     border: none;
@@ -117,7 +117,7 @@ header{
 
 /* #endregion Main */
 
-/*  #region Footer*/
+/* #region Footer*/
 footer{
     margin-top: 5rem;
     background-color: #23272a;
